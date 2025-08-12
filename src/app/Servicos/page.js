@@ -133,7 +133,7 @@ function Servicos(){
                         </div>
             </div>
             {/*********************************PRECISA DE UMA SOLUÇÃO PERSONALISADA*********************************/}
-            <div className="mt-14 W-full flex justify-center mb-10">
+            <div className="mt-14 W-full flex justify-center ">
                   <div className="w-[50%] h-[250px] bg-white rounded shadow-xl px-8 py-4 text-center">
                         <h1 className=" text-2xl font-bold ">PRECISA DE UMA SOLUÇÃO PERSONALISADA</h1>
                         <p className=" text-gray-500 text-xl mt-3">Combinamos nossos serviços para criar soluções sob medida que atendem exatamente às necessidades do seu projeto.</p>

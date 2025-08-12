@@ -45,7 +45,6 @@ function Portfolio(){
                         </div>
                         
                   </div>
-                  {/********************************* */}
             
             {/********************************* */}
             <div className="gap-8 w-3/3  transicao pt-10 px-19">
@@ -54,13 +53,13 @@ function Portfolio(){
                   }
              </div>
             {/*********************************PRECISA DE UMA SOLUÇÃO PERSONALISADA*********************************/}
-            <div className="mt-14 W-full flex justify-center pb-80">
+            <div className="mt-14 W-full flex justify-center">
                   <div className="w-[50%] h-[50px] rounded px-8 py-4 text-center">
                         <p className=" text-gray-500 text-2xl mt-3">Gostou do que viu? Vamos criar algo incrível para sua marca também.</p>
                   
                         <div className="justify-center flex mt-5">
                                <button className="btn-laranja text-[110%] px-6 py-5 transicao flex gap-2 font-semibold mt-5">INICIAR MEU PROJECTO</button>
-                         </div>
+                        </div>
                   </div>
             </div>
             

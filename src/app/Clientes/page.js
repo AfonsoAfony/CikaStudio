@@ -1,10 +1,8 @@
-"use client";
-
-
 function Clientes(){
       
         return(
-<div id="Clientes" className=" block mt-20 pt-3 text-black"> 
+
+<div className=" block  mt-72 pt-20 text-black"> 
                   <div className="px-52">
                         <h1 className="text-center text-6xl font-semibold mb-5">Nossos <span className="cor-logo">Clientes</span></h1>
                         <p className="text-center text-gray-500 text-xl mx-52 ">Temos o privilégio de trabalhar com startups e marcas inovadoras que estão moldando o futuro de seus mercados.</p>
@@ -73,7 +71,7 @@ function Clientes(){
                                           </div>
                                           <div >
                                                 
-                                                      <p ><span classeName="font-semibold">Marina Silva</span></p>
+                                                      <p className="font-semibold">Marina Silva</p>
                                                       <p className="text-gray-400">CEO, TechVerde</p>
                                                       <p className="text-sm text-amber-400">TechVerde</p>
                                           </div>
@@ -99,7 +97,7 @@ function Clientes(){
                                           </div>
                                           <div >
                                                 
-                                                      <p ><span classeName="font-semibold">Carlos Mendes</span></p>
+                                                      <p className="font-semibold">Carlos Mendes</p>
                                                       <p className="text-gray-400">Founder, EduTech</p>
                                                       <p className="text-sm text-amber-400">EduTech</p>
                                           </div>
@@ -130,7 +128,7 @@ function Clientes(){
                                           </div>
                                           <div >
                                                 
-                                                      <p ><span classeName="font-semibold">Ana Beatriz</span></p>
+                                                      <p className="font-semibold">Ana Beatriz</p>
                                                       <p className="text-gray-400">Marketing Director, FoodApp</p>
                                                       <p className="text-sm text-amber-400">FoodApp</p>
                                           </div>
@@ -156,7 +154,7 @@ function Clientes(){
                                           </div>
                                           <div >
                                                 
-                                                      <p ><span classeName="font-semibold">Ricardo Santos</span></p>
+                                                      <p className="font-semibold">Ricardo Santos</p>
                                                       <p className="text-gray-400">Co-founder, FinFlow</p>
                                                       <p className="text-sm text-amber-400">FinFlow</p>
                                           </div>
