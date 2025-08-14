@@ -10,14 +10,14 @@ import Rodape from "./Rodape/page";
 
 export default function Home() {
   return (
-    <div>
+    <div className="overflow-hidden">
       
         <Menubar/>
         <Header/>
         <Sobre/>
         <Servicos/>
         <Portfolio/>
-        <div id="Clientes" className="">
+        <div id="Clientes" >
               <Clientes/>
         </div>
         

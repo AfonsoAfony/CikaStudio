@@ -4,68 +4,68 @@ import { Facebook, Instagram, Linkedin, Mail, MapPin, PhoneCall, Send } from "lu
 function Contactos(){
       
         return(
-<div id="Contactos" className=" block  mt-32 pt-20 text-black"> 
-                  <div className="px-52">
-                        <h1 className="text-center text-6xl font-semibold mb-5">Vamos <span className="cor-logo">Criar Juntos</span></h1>
-                        <p className="text-center text-gray-500 text-xl mx-52 ">Pronto para transformar sua marca? Entre em contato conosco e vamos conversar sobre como podemos ajudar sua empresa a se destacar no mercado.</p>
+<div id="Contactos" className=" block mt-18 lg:mt-32 pt-20 text-black"> 
+                  <div className=" lg:px-52">
+                        <h1 className="text-center text-3xl md:text-6xl font-semibold mb-5">Vamos <span className="cor-logo">Criar Juntos</span></h1>
+                        <p className="text-center text-gray-500 text-lg lg:text-xl mx-18 xl:mx-52 ">Pronto para transformar sua marca? Entre em contato conosco e vamos conversar sobre como podemos ajudar sua empresa a se destacar no mercado.</p>
                          
                   </div>
 
                   <div className="transicao py-10 px-19" >
 
-                        <div className="gap-8 w-3/3 flex fle-wrap transicao">
+                        <div className="gap-8 w-full flex flex-wrap transicao">
 
-                              <div className="w-1/2 transicao py-9 transicao rounded bg-white ">
-                              <h2 className=" text-2xl ml-5 font-semibold transicao">Conte-nos sobre seu projeto</h2>
-                              <p className="text-gray-500 text-lg m-5 transicao">Preencha o formulário abaixo e retornaremos em até 24 horas com uma proposta personalizada.</p>
-                                <div className="w-3/3">
-                                    <form className="flex flex-wrap justify-between">
+                              <div className="w-full lg:w-[48%] transicao py-9 transicao rounded bg-white ">
+                                    <h2 className=" text-center md:text-start text-xl md:text-2xl ml-5 font-semibold transicao">Conte-nos sobre seu projeto</h2>
+                                    <p className="text-gray-500 text-md m-5 transicao">Preencha o formulário abaixo e retornaremos em até 24 horas com uma proposta personalizada.</p>
+                                        <div className="w-3/3">
+                                            <form className="flex flex-wrap justify-between">
 
-                                        <div className="w-1/2  flex-wrap flex px-4 mt-5">
-                                            <label className="font-semibold mb-2 text-sm" >Nome*</label>
-                                            <input type="text" placeholder="Digite seu nome" className="bg-gray-100 w-sm focus:outline-none focus:border-2 focus:border-amber-400 rounded-xl py-2 px-5"/>
+                                                <div className="w-full md:w-1/2  flex-wrap flex px-4 mt-5">
+                                                    <label className="md:font-semibold mb-2 text-sm" >Nome* </label>
+                                                    <input type="text" placeholder="Digite seu nome" className="bg-gray-100 w-sm focus:outline-none focus:border-2 focus:border-amber-400 rounded-xl py-2 px-5"/>
+                                                </div>
+
+                                                <div className="w-full md:w-1/2   flex-wrap flex px-4 mt-5">
+                                                    <label className="md:font-semibold mb-2 text-sm" >Email* </label>
+                                                    <input type="text" placeholder="Digite seu nome" className="bg-gray-100 w-sm focus:outline-none focus:border-2 focus:border-amber-400 rounded-xl py-2 px-5"/>
+                                                </div>
+
+                                                <div className="w-full md:w-1/2   flex-wrap flex px-4 mt-5">
+                                                    <label className="md:font-semibold mb-2 text-sm" >Empresa* </label>
+                                                    <input type="text" placeholder="Nome da sua empresa" className="bg-gray-100 w-sm focus:outline-none focus:border-2 focus:border-amber-400 rounded-xl py-2 px-5"/>
+                                                </div>
+
+                                                <div className="w-full md:w-1/2   flex-wrap flex px-4 mt-5">
+                                                    <label className="md:font-semibold mb-2 text-sm" >Serviço de Interesse* </label>
+                                                    <select placeholder="Seleccione o um serviço" className="bg-gray-100 w-sm text-sm focus:outline-none focus:border-2 focus:border-amber-400 rounded-xl py-2 px-5">
+                                                        <option value="Design">Seleccione um Serviço</option>
+                                                        <option value="Design">Design Gráfico</option>
+                                                        <option value="Branding">Branding</option>
+                                                        <option value="CriacaoConteudo">Crianção de Conteúdo</option>
+                                                        <option value="ProducaoVideo">Produção de Vídeo</option>
+                                                        <option value="ProjectoCompleto">Projecto Completo</option>
+                                                    </select>
+                                                </div>
+
+                                                <div className="w-full px-4 mt-5">
+                                                    <label className="md:font-semibold mb-4 text-sm" >Mensagem* </label>
+                                                    <textarea placeholder="Conte-nos sobre o seu projecto, objectivos expectativas..." className="bg-gray-100 resize-none w-full h-42 align-top text-left focus:outline-none focus:border-2 focus:border-amber-400 rounded-xl py-3 px-5">
+                                                    </textarea>
+                                                </div>
+                                                
+                                                <div className="w-full h-[110px] flex mt-16">
+                                                    <div className=" w-full">
+                                                        <button className="btn-laranja w-full text-[95%] items-center md:text-[110%] justify-center px-6 py-3 md:py-5 transicao flex gap-2 font-semibold mt-5">ENVIAR MENSAGEM <Send/></button>
+                                                    </div>
+                                                </div>                                   
+                                                
+                                            </form>
                                         </div>
-
-                                        <div className="w-1/2  flex-wrap flex px-4 mt-5">
-                                            <label className="font-semibold mb-2 text-sm" >Email*</label>
-                                            <input type="text" placeholder="Digite seu nome" className="bg-gray-100 w-sm focus:outline-none focus:border-2 focus:border-amber-400 rounded-xl py-2 px-5"/>
-                                        </div>
-
-                                        <div className="w-1/2  flex-wrap flex px-4 mt-5">
-                                            <label className="font-semibold mb-2 text-sm" >Empresa*</label>
-                                            <input type="text" placeholder="Nome da sua empresa" className="bg-gray-100 w-sm focus:outline-none focus:border-2 focus:border-amber-400 rounded-xl py-2 px-5"/>
-                                        </div>
-
-                                        <div className="w-1/2  flex-wrap flex px-4 mt-5">
-                                            <label className="font-semibold mb-2 text-sm" >Serviço de Interesse*</label>
-                                            <select placeholder="Seleccione o um serviço" className="bg-gray-100 w-sm text-sm focus:outline-none focus:border-2 focus:border-amber-400 rounded-xl py-2 px-5">
-                                                <option value="Design">Seleccione um Serviço</option>
-                                                <option value="Design">Design Gráfico</option>
-                                                <option value="Branding">Branding</option>
-                                                <option value="CriacaoConteudo">Crianção de Conteúdo</option>
-                                                <option value="ProducaoVideo">Produção de Vídeo</option>
-                                                <option value="ProjectoCompleto">Projecto Completo</option>
-                                            </select>
-                                        </div>
-
-                                        <div className="w-full px-4 mt-5">
-                                            <label className="font-semibold mb-4 text-sm" >Mensagem*</label>
-                                            <textarea placeholder="Conte-nos sobre o seu projecto, objectivos expectativas..." className="bg-gray-100 resize-none w-full h-42 align-top text-left focus:outline-none focus:border-2 focus:border-amber-400 rounded-xl py-3 px-5">
-                                            </textarea>
-                                        </div>
-                                        
-                                        <div className="w-full h-[110px] flex mt-16">
-                                            <div className=" w-full">
-                                                 <button className="btn-laranja w-full text-[110%] justify-center px-6 py-5 transicao flex gap-2 font-semibold mt-5">ENVIAR MENSAGEM <Send/></button>
-                                            </div>
-                                        </div>                                   
-                                        
-                                    </form>
-                                </div>
                               </div>
                               {/********************************************************************************************* */}
 
-                              <div className="w-1/2 transicao rounded-t-2xl transicao ">
+                              <div className="w-full lg:w-[48%] transicao rounded-t-2xl transicao ">
 
                                             <div className="gap-10 w-full h-[120px] flex flex-wrap justify-between transicao ">
                                                             
@@ -117,14 +117,14 @@ function Contactos(){
                                                                  
                                                     <div className="w-3/3 pl-5 ">
                                                         <h2 className="text-xl text-amber-400 font-semibold">Siga-nos nas Redes Sociais</h2>
-                                                           <div className="w-[35%] flex flex-wrap gap-3 justify-center mt-5">
-                                                                <div className="w-1/6 hover:bg-amber-300 h-[50%] cursor-pointer items-center py-3 rounded-xl hover:-mt-3 bg-white px-2 transicao">
+                                                           <div className="w-[60%] md:w-[35%] flex flex-wrap gap-3 justify-center mt-5">
+                                                                <div className="w-1/6 hover:bg-amber-300 h-[50%] cursor-pointer items-center py-3 rounded-xl hover:-mt-3 bg-white px-6 pl-2 md:pl-0 md:px-2 transicao">
                                                                     <a href="Instagram.com/cika.Studio"><Instagram size={18}/></a>
                                                                 </div>
-                                                                <div className="w-1/6 hover:bg-amber-300 h-[50%] cursor-pointer items-center py-3 rounded-xl hover:-mt-3 bg-white px-2 transicao">
+                                                                <div className="w-1/6 hover:bg-amber-300 h-[50%] cursor-pointer items-center py-3 rounded-xl hover:-mt-3 bg-white px-6 pl-2 md:pl-0 md:px-2 transicao">
                                                                     <a href="#"><Linkedin size={18}/></a>
                                                                 </div>
-                                                                <div className="w-1/6 hover:bg-amber-300 h-[50%] cursor-pointer items-center py-3 rounded-xl hover:-mt-3 bg-white px-2 transicao">
+                                                                <div className="w-1/6 hover:bg-amber-300 h-[50%] cursor-pointer items-center py-3 rounded-xl hover:-mt-3 bg-white px-6 pl-2 md:pl-0 md:px-2 transicao">
                                                                     <a href="https://www.facebook.com/share/15vEnD3Qp2/?mibextid=wwXIfr"><Facebook size={18}/></a>
                                                                 </div>
                                                            </div>
@@ -133,10 +133,10 @@ function Contactos(){
                                                             
                                             </div>
                                             {/**************************************Resposta Rápida Garantida********************************/}
-                                            <div className="py-3 px-10 rounded-2xl mt-10 bg-amber-400 w-full h-[210px] flex flex-wrap justify-between transicao ">
-                                                         <h2 className="text-xl font-semibold ">Resposta Rápida Garantida</h2>
+                                            <div className="py-3 px-10 rounded-2xl mt-10 bg-amber-400 w-full h-[250px] flex flex-wrap justify-between transicao ">
+                                                         <h2 className="text-xl font-semibold text-center ">Resposta Rápida Garantida</h2>
                                                     
-                                                    <div className="w-full flex gap-4 transicao">
+                                                    <div className="w-full flex gap-4 transicao text-sm md:text-md">
 
                                                            <div className="w-3/3">
                                                                     <h3>Resposta inicial:</h3>
@@ -147,7 +147,7 @@ function Contactos(){
                                                             
                                                      </div>
                                                      {/*******************************************/}
-                                                     <div className="w-full flex gap-4 transicao">
+                                                     <div className="w-full flex gap-4 transicao text-sm md:text-md">
 
                                                            <div className="w-3/3">
                                                                     <h3>Proposta detalhada:</h3>
@@ -158,7 +158,7 @@ function Contactos(){
                                                             
                                                      </div>
                                                      {/*******************************************/}
-                                                     <div className="w-full flex gap-4 transicao">
+                                                     <div className="w-full flex gap-4 transicao text-sm md:text-md">
 
                                                            <div className="w-3/3">
                                                                     <h3>Início do projeto:</h3>

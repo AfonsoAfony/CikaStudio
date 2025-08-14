@@ -2,60 +2,61 @@ function Clientes(){
       
         return(
 
-<div className=" block  mt-72 pt-20 text-black"> 
-                  <div className="px-52">
-                        <h1 className="text-center text-6xl font-semibold mb-5">Nossos <span className="cor-logo">Clientes</span></h1>
-                        <p className="text-center text-gray-500 text-xl mx-52 ">Temos o privilégio de trabalhar com startups e marcas inovadoras que estão moldando o futuro de seus mercados.</p>
+<div className=" block  mt-32 lg:mt-72 pt-20 text-black"> 
+                  <div className="lg:px-52">
+                        <h1 className="text-center text-4xl md:text-6xl font-semibold mb-5">Nossos <span className="cor-logo">Clientes</span></h1>
+                        <p className="text-center text-gray-500 text-lg lg:text-xl mx-18 xl:mx-52 ">Temos o privilégio de trabalhar com startups e marcas inovadoras que estão moldando o futuro de seus mercados.</p>
                         <h2 className="text-center pt-20 text-2xl font-semibold">Marcas que Confiam em Nós</h2>
                         
                   </div>
 
-                  <div className="transicao py-10 px-19" >
+                  <div className="transicao py-10 px-19 space-y-7 md:space-y-0" >
 
-                        <div className="gap-8 w-3/3 flex fle-wrap transicao">
+                        <div className="gap-8 w-3/3 flex md:flex-nowrap flex-wrap transicao">
 
-                              <div className="w-[24%] transition hover:shadow-amber-300 hover:shadow-2xl hover:scale-110 text-center font-bold py-9 rounded bg-white  ">
+                              <div className="md:w-[24%] w-[45%] hover:shadow-amber-300 hover:shadow-2xl hover:scale-110 text-center font-bold py-9 rounded bg-white  ">
                                     <span className="text-green-400 text-2xl " >TechVerde</span>
                               </div>
-                              <div className="w-[24%] transition hover:shadow-amber-300 hover:shadow-2xl hover:scale-110 text-center font-bold py-9 rounded bg-white  ">
+                              <div className="md:w-[24%] w-[45%] hover:shadow-amber-300 hover:shadow-2xl hover:scale-110 text-center font-bold py-9 rounded bg-white  ">
                                     <span className="text-red-400 text-2xl " >EduTech</span>
                               </div>
-                              <div className="w-[24%] transition hover:shadow-amber-300 hover:shadow-2xl hover:scale-110 text-center font-bold py-9 rounded bg-white  ">
+                              <div className="md:w-[24%] w-[45%] hover:shadow-amber-300 hover:shadow-2xl hover:scale-110 text-center font-bold py-9 rounded bg-white  ">
                                     <span className="text-amber-700 text-2xl " >FoodApp</span>
                               </div>
-                              <div className="w-[24%] transition hover:shadow-amber-300 hover:shadow-2xl hover:scale-110 text-center font-bold py-9 rounded bg-white ">
+                              <div className="md:w-[24%] w-[45%] hover:shadow-amber-300 hover:shadow-2xl hover:scale-110 text-center font-bold py-9 rounded bg-white ">
                                     <span className="text-amber-400 text-2xl " >FinFlow</span>
                               </div>
                         </div>
-                        <div className="gap-8 w-3/3 flex fle-wrap transicao pt-10 px-19">
+                        <div className="gap-8 w-3/3 flex md:flex-nowrap flex-wrap transicao md:pt-10 md:px-19">
 
 
-                              <div className="w-[24%] transition hover:shadow-amber-300 hover:shadow-2xl hover:scale-110 text-center font-bold py-9 rounded bg-white ">
+
+                              <div className="md:w-[24%] w-[45%] hover:shadow-amber-300 hover:shadow-2xl hover:scale-110 text-center font-bold py-9 rounded bg-white ">
                                     <span className="text-amber-800 text-2xl " >HealthPlus</span>
                               </div>
-                              <div className="w-[24%] transition hover:shadow-amber-300 hover:shadow-2xl hover:scale-110 text-center font-bold py-9 rounded bg-white ">
+                              <div className="md:w-[24%] w-[45%] hover:shadow-amber-300 hover:shadow-2xl hover:scale-110 text-center font-bold py-9 rounded bg-white ">
                                     <span className="text-green-600 text-2xl " >GreenStart</span>
                               </div>
-                              <div className="w-[24%] transition hover:shadow-amber-400 hover:shadow-2xl hover:scale-110 text-center font-bold py-9 rounded bg-white ">
+                              <div className="md:w-[24%] w-[45%] hover:shadow-amber-400 hover:shadow-2xl hover:scale-110 text-center font-bold py-9 rounded bg-white ">
                                     <span className="text-yellow-900 text-2xl " >SportTech</span>
                               </div>
-                              <div className="w-[24%] transition hover:shadow-amber-400 hover:shadow-2xl hover:scale-110 text-center font-bold py-9 rounded bg-white  ">
+                              <div className="md:w-[24%] w-[45%] hover:shadow-amber-400 hover:shadow-2xl hover:scale-110 text-center font-bold py-9 rounded bg-white  ">
                                     <span className="text-red-600 text-2xl " >CreativeHub</span>
                               </div>
                         </div>
                   </div>      
 
-                  <div className="px-52 mt-10">
-                        <h1 className="text-center text-4xl font-semibold mb-5">Os Nossos <span className="cor-logo">Clientes dizem</span></h1>
-                        <p className="text-center text-gray-500 text-xl mx-52 ">Nada nos deixa mais felizes do que ver nossos clientes alcançando seus objetivos.</p>
+                  <div className="px-10 lg:px-52 mt-10">
+                        <h1 className="text-center text-4xl md:text-6xl font-semibold mb-5">Os Nossos <span className="cor-logo">Clientes dizem</span></h1>
+                        <p className="text-center text-gray-500 text-lg lg:text-xl mx-18 xl:mx-52 ">Nada nos deixa mais felizes do que ver nossos clientes alcançando seus objetivos.</p>
                                                
                   </div>
 
             {/**********************************Comentários de Clientes******************************** */}
-             <div className="gap-8 w-3/3 h-[350px] flex justify-between transicao pt-10 px-19">
-                  
-                       <div >
-                              <div className="hover:shadow-amber-300 hover:shadow-2xl h-full py-3 hover:-mt-5 bg-white  rounded-3xl px-5 transicao">
+            <div className="gap-8 w-3/3 flex flex-wrap lg:flex-nowrap justify-between transicao pt-10 px-6 lg:px-19">
+  
+                       <div className="h-[320px] w-full lg:w-[48%]">
+                              <div className="hover:shadow-amber-300  hover:shadow-2xl py-3 hover:-mt-5 bg-white  rounded-3xl px-5 transicao">
                                     
                                     <div className=" w-1/8  ">
                                           <img src="./icons/stars.png" className=" right-0 w-[90%]" />
@@ -80,7 +81,7 @@ function Clientes(){
                               
                         </div>
                         
-                         <div >
+                        <div className="h-[320px] w-full lg:w-[48%]">
                               <div className="hover:shadow-amber-300 hover:shadow-2xl h-full py-3 hover:-mt-5 bg-white  rounded-3xl px-5 transicao">
                                     
                                     <div className=" w-1/8  ">
@@ -109,9 +110,9 @@ function Clientes(){
             </div>
 
             {/********************************* */}
-            <div className="gap-8 w-3/3 h-[350px] flex justify-between transicao pt-10 px-19">
-                  
-                       <div >
+             <div className="gap-8 w-3/3 flex flex-wrap lg:flex-nowrap justify-between transicao pt-10 px-6 lg:px-19">
+
+                       <div className="h-[320px] w-full lg:w-[48%]">
                               <div className="hover:shadow-amber-300 hover:shadow-2xl h-full py-3 hover:-mt-5 bg-white  rounded-3xl px-5 transicao">
                                     
                                     <div className=" w-1/8  ">
@@ -137,7 +138,7 @@ function Clientes(){
                               
                         </div>
                         
-                         <div >
+                         <div className="h-[320px] w-full lg:w-[48%]">
                               <div className="hover:shadow-amber-300 hover:shadow-2xl h-full py-3 hover:-mt-5 bg-white  rounded-3xl px-5 transicao">
                                     
                                     <div className=" w-1/8  ">

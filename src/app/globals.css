@@ -2,7 +2,6 @@
 
 html {
   scroll-behavior:smooth;
-  
 }
 
 :root {
@@ -59,7 +58,7 @@ body {
   
 }
 .btn-laranja:hover{
-  margin-top:-7px;
+  margin-top:-10px;
 }
 
 .btn-branco{
