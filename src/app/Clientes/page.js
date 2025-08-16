@@ -40,8 +40,8 @@ function Clientes(){
                               <div className="md:w-[24%] w-[40%] hover:shadow-amber-400 hover:shadow-2xl hover:scale-110 text-center font-bold py-9 rounded bg-white ">
                                     <span className="text-yellow-900 text-sm md:text-xl xl:text-2xl" >SportTech</span>
                               </div>
-                              <div className="md:w-[24%] w-[40%] hover:shadow-amber-400 hover:shadow-2xl hover:scale-110 text-center font-bold px-3 py-9 rounded bg-white  ">
-                                    <span className="text-red-600 text-sm md:text-xl xl:text-2xl" >CreativeHub</span>
+                              <div className="md:w-[24%] w-[40%] hover:shadow-amber-400 hover:shadow-2xl hover:scale-110 text-center font-bold py-9 rounded bg-white  ">
+                                    <span className="text-red-600 text-xs md:text-xl xl:text-2xl" >CreativeHub</span>
                               </div>
                         </div>
                   </div>      
