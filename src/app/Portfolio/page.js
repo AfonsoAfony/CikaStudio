@@ -47,7 +47,7 @@ function Portfolio(){
                   </div>
             
             {/********************************* */}
-            <div className="gap-8 w-3/3  transicao pt-10 px-19">
+            <div className="gap-8 w-3/3  transicao pt-10 px-8 md:px-19">
                   {
                      componentes[conteudoDiv]
                   }

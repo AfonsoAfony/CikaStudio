@@ -20,11 +20,11 @@ function Sobre(){
                         </div>
                         <div className="w-1/1 flex flex-col justify-end">
                               
-                              <div className="h-[400px] md:h-[500px] md:px-8 ">
-                                          <img src="./img/bg3.jpg" className="md:h-[500px] md:w-full h-[420px] hover:-mt-8 transicao rounded-3xl w-full "/>
+                              <div className="h-[350px] md:h-[500px] md:px-8 ">
+                                          <img src="./img/bg3.jpg" className="md:h-[500px] md:w-full h-[350px] hover:-mt-8 transicao rounded-3xl w-full "/>
                               </div>
                             
-                               <div className=" border-amber-500 border-2 bg-amber-50 z-9 -mt-18 py-7 rounded-2xl w-[35%] text-center">
+                               <div className=" border-amber-500 border-2 bg-amber-50 z-9 -mt-18 py-7 rounded-2xl md:w-[35%] w-[45%] text-center">
                                     
                                            <span className=" lg:text-4xl text-2xl text-amber-500 font-semibold ">+25</span>
                                           <p className=" text-gray-700 text-sm lg:text-md">Clientes satisfeitos em 3 anos</p>
@@ -38,9 +38,9 @@ function Sobre(){
                         <h1 className="text-center text-3xl font-semibold mb-5">Nossos <span className="cor-logo">Valores</span></h1>
                         <p className="text-center text-gray-500 text-xl ">Os princípios que guiam cada projeto e relacionamento que construímos.</p>
                   </div>
-                  <div className="w-full flex gap-x-4 md:flex-row md:flex-wrap lg:flex-row flex-col md gap-y-10 mt-10 py-5 px-2">
+                  <div className="w-full flex gap-x-4 md:flex-row md:flex-wrap flex-col md:gap-y-10 mt-10 py-5 px-2">
                         
-                                <div className=" h-68 transicao w-full md:w-[48%] lg:w-[23%]">
+                              <div className=" h-68 transicao w-full md:w-[48%] lg:w-[23%]">
                                     <div className="h-full hover:-mt-6 hover:shadow-lg hover:shadow-amber-200 transicao w-full bg-white  py-14 rounded-2xl text-center">
                                           <div className="flex justify-center transicao w-full">
                                                 <img src="./icons/lampada.png" className="w-[25%] transicao rounded-full"/>

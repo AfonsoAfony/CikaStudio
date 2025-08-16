@@ -47,7 +47,7 @@ const [isOpen, setOpen] = useState(false);
                               <li onClick={()=>setOpen(false)} ><a className="transicao link" href="#Contactos">Contactos</a></li>
                               </ul>
                               
-                              <div  onClick={()=>setOpen(false)}  className=" flex h-10 px-5 items-center transicao w-full border-2 ">
+                              <div  onClick={()=>setOpen(false)}  className=" flex h-10 px-5 items-center transicao w-full">
                               <button  className=" animacao-opacidade btn-laranja text-center w-full font-bold text-lg py-2 transicao">Vamos criar juntos</button>
                               </div>
                               
