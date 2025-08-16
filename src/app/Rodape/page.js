@@ -29,7 +29,7 @@ function Rodape(){
                                                                             <span><PhoneCall size={18}/></span> 
                                                         </div>
                                                         <div >
-                                                                <p className="text-gray-400">+244 948 921 147</p>
+                                                                <p className="text-gray-400 text-semibold text-sm">+244 948 921 147</p>
                                                         </div>
                                                 </li>
 
@@ -38,7 +38,7 @@ function Rodape(){
                                                                             <span><MapPin size={18}/></span> 
                                                         </div>
                                                         <div >
-                                                                <p className="text-gray-400">Talatona, Luanda-Angola</p>
+                                                                <p className="text-gray-400 text-semibold text-sm">Talatona, Luanda-Angola</p>
                                                         </div>
                                                 </li>
 
@@ -83,17 +83,23 @@ function Rodape(){
                               </div>
                         </div>
                          {/*********************************PRonto para começar o seu projecto*********************************/}
+                         <div className="mb-20">
+                        
                             <div className="mt-14 W-full flex shadow-xl rounded  border-t-2 border-gray-300 pt-5 justify-center mb-10">
-                                <div className="w-full lg:w-[50%] h-[370px] md:h-[250px] bg-white px-8 py-4 text-center">
+                                <div className="w-full lg:w-[50%] md:h-[250px] bg-white px-8 py-4 text-center">
                                         <h1 className=" text-xl lg:text-2xl font-bold ">Pronto para Começar seu Projeto?</h1>
                                         <p className=" text-gray-500 text-lg lg:text-xl mt-3">Entre em contato conosco hoje mesmo e vamos conversar sobre como podemos transformar sua marca em algo extraordinário.</p>
-                                
+                                        
+                                        
                                         <div className="justify-center flex mt-5">
-                                            <button className="btn-laranja text-[110%] px-6 py-5 transicao flex gap-2 font-semibold mt-5 animacao-opacidade ">VAMOS CRIAR JUNTOS</button>
+                                                <div className="h-10">
+                                                        <button className="btn-laranja text-[110%] px-6 py-5 transicao flex gap-2 font-semibold mt-5 animacao-opacidade ">VAMOS CRIAR JUNTOS</button>
+                                                </div>
                                         </div>
                                 </div>
                                 
                             </div>
+                        </div>
                             
                           
                   </div>  

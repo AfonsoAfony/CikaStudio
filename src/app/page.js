@@ -17,10 +17,7 @@ export default function Home() {
         <Sobre/>
         <Servicos/>
         <Portfolio/>
-        <div id="Clientes" >
-              <Clientes/>
-        </div>
-        
+         <Clientes/>
         <Contactos/>
         <Rodape/>
        

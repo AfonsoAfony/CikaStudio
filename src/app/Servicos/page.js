@@ -10,7 +10,7 @@ function Servicos(){
             {/**********************************/}
             <div className="gap-8 w-3/3 flex lg:flex-nowrap flex-wrap justify-between transicao pt-10 px-5 md:px-19">
                   
-                       <div className="h-[400px] transicao ">           
+                       <div className="md:h-[400px] transicao ">           
                        <div className=" group hover:-mt-5 hover:bg-amber-200  border-2 rounded-3xl px-8 border-amber-500 w-1/1 py-5 transicao ">
                               
                               <div className="w-full flex">
@@ -26,7 +26,7 @@ function Servicos(){
                                     <h2 className=" text-gray-500 text-md mb-5"> Criamos identidades visuais marcantes que conectam sua marca ao público-alvo.</h2>
                               
                               </div>
-                              <div className=" text-gray-600 text-md flex w-full mb-7">
+                              <div className=" text-gray-600 text-md flex flex-wrap md:flex-nowrap w-full gap-y-3 md:gap-y-0 mb-7">
                                     <ol className="w-1/1 space-y-3 list-disc marker:text-amber-500">
                                         <li>Identidade Visual</li>
                                         <li>Material Gráfico</li>
@@ -42,10 +42,10 @@ function Servicos(){
                         </div>
                         </div>
 
-                        <div className="h-[400px]">  
+                        <div className="md:h-[400px]">  
                         <div className=" group hover:-mt-5 hover:bg-amber-200  border-2 rounded-3xl px-8 border-amber-500 w-1/1 py-5 transicao ">
                               
-                              <div className="w-full flex">
+                              <div className="w-full flex ">
                                     <h2 className=" w-1/1 mt-8 font-bold mb-5 text-black text-xl">Branding</h2>
                               
                                      <div className=" w-1/8  ">
@@ -58,7 +58,7 @@ function Servicos(){
                                     <h2 className=" text-gray-500 text-md mb-5"> Desenvolvemos estratégias de marca completas para posicionar seu negócio no mercado.</h2>
                               
                               </div>
-                              <div className=" text-gray-600 text-md flex w-full mb-7">
+                              <div className=" text-gray-600 text-md flex  flex-wrap md:flex-nowrap w-full  gap-y-3 md:gap-y-0 mb-7">
                                     <ol className="w-1/1 space-y-3 list-disc marker:text-amber-500">
                                         <li>Estratégia de Marca</li>
                                         <li>Brand Guidelines</li>
@@ -79,7 +79,7 @@ function Servicos(){
             
             <div className="gap-8 w-3/3 flex lg:flex-nowrap flex-wrap justify-between transicao pt-10 px-5 md:px-19">
                        
-                       <div className="h-[400px]">  
+                       <div className="md:h-[400px]">  
                        <div className="group hover:-mt-5 hover:bg-amber-200  border-2 rounded-3xl px-8 border-amber-500 w-1/1 py-5 transicao ">
                               
                               <div className="w-full flex">
@@ -95,7 +95,7 @@ function Servicos(){
                                     <h2 className=" text-gray-500 text-md mb-5">Produzimos conteúdo visual e textual que engaja e converte sua audiência.</h2>
                               
                               </div>
-                              <div className=" text-gray-600 text-md flex w-full mb-7">
+                              <div className=" text-gray-600 text-md flex  flex-wrap md:flex-nowrap  gap-y-3 md:gap-y-0 w-full mb-7">
                                     <ol className="w-1/1 space-y-3 list-disc marker:text-amber-500">
                                         <li>Social Media</li>
                                         <li>Ilustrações</li>
@@ -111,7 +111,7 @@ function Servicos(){
                         </div>
                         </div>
 
-                        <div className="h-[400px]">  
+                        <div className="md:h-[400px]">  
                         <div className=" group hover:-mt-5 hover:bg-amber-200 border-2 rounded-3xl px-8 border-amber-500 w-1/1 py-5 transicao ">
                               
                               <div className="w-full flex">
@@ -127,7 +127,7 @@ function Servicos(){
                                     <h2 className=" text-gray-500 text-md mb-5"> Criamos vídeos impactantes que contam a história da sua marca de forma envolvente.</h2>
                               
                               </div>
-                              <div className=" text-gray-600 text-md flex w-full mb-7">
+                              <div className=" text-gray-600 text-md flex  flex-wrap md:flex-nowrap gap-y-3 md:gap-y-0 w-full mb-7">
                                     <ol className="w-1/1 space-y-3 list-disc marker:text-amber-500">
                                         <li>Motion Graphics</li>
                                         <li>Animações</li>
@@ -145,12 +145,12 @@ function Servicos(){
             </div>
             {/*********************************PRECISA DE UMA SOLUÇÃO PERSONALISADA*********************************/}
             <div className="mt-14 W-full flex justify-center ">
-                  <div className="w-[95%] lg:w-[50%] h-[300px] lg:h-[250px] rounded-2xl bg-white shadow-xl px-8 py-4 text-center">
-                        <h1 className=" text-xl lg:text-2xl font-bold ">PRECISA DE UMA SOLUÇÃO PERSONALISADA</h1>
-                        <p className=" text-gray-500 text-lg lg:text-xl mt-4">Combinamos nossos serviços para criar soluções sob medida que atendem exatamente às necessidades do seu projeto.</p>
+                  <div className="w-[95%] lg:w-[50%] h-[390px] md:h-[280px] lg:h-[250px] rounded-2xl bg-white shadow-xl px-8 py-4 text-center">
+                        <h1 className=" text-lg lg:text-2xl font-bold ">PRECISA DE UMA SOLUÇÃO PERSONALISADA</h1>
+                        <p className=" text-gray-500 text-md lg:text-xl mt-4">Combinamos nossos serviços para criar soluções sob medida que atendem exatamente às necessidades do seu projeto.</p>
                   
                         <div className="justify-center flex mt-4">
-                               <button className="btn-laranja items-center text-[90%] lg:text-[110%] px-6 py-5 transicao flex gap-2 font-semibold mt-5">VAMOS CONVERSAR SOBRE O PROJECTO<ArrowRight/></button>
+                               <button className="btn-laranja items-center text-[80%] lg:text-[110%] px-6 py-5 transicao flex gap-2 font-semibold mt-5">VAMOS CONVERSAR SOBRE O PROJECTO<ArrowRight/></button>
                          </div>
                   </div>
                   

@@ -34,13 +34,13 @@ function Portfolio(){
                         <h1 className="text-center text-4xl lg:text-6xl font-semibold mb-5">Nosso <span className="cor-logo">Portfólio</span></h1>
                         <p className="text-center text-gray-500 text-lg lg:text-xl mx-18 xl:mx-52 ">Conheça alguns dos projetos que desenvolvemos para startups e marcas inovadoras que estão transformando seus mercados.</p>
 
-                        <div className="flex px-6 w-full justify-center items-center mt-15">
-                              <div className="flex w-full md:w-[60%] md:gap-4 justify-between">
-                                    <button id="todos" onClick={()=>{setConteudoDiv("todos");}} className="w-1/3 h-[40px] rounded-2xl cursor-pointer border-2 border-gray-200 hover:bg-amber-200 text-[80%] md:text-[90%] px-5 transicao ">Todos</button>
-                                    <button id="branding"  onClick={()=>{setConteudoDiv("branding");}}  className="w-1/3 h-[40px] rounded-2xl cursor-pointer border-2 border-gray-200 hover:bg-amber-200 text-[80%] md:text-[90%] px-5 transicao ">Branding</button>
-                                    <button id="design" onClick={()=>{setConteudoDiv("design");}} className="w-1/3 h-[40px] rounded-2xl cursor-pointer border-2 border-gray-200 hover:bg-amber-200 text-[80%] md:text-[90%] px-5 transicao ">Design</button>
-                                    <button id="video" onClick={()=>{setConteudoDiv("video");}} className="w-1/3 h-[40px] rounded-2xl cursor-pointer border-2 border-gray-200 hover:bg-amber-200 text-[80%] md:text-[90%] px-5 transicao ">Video</button>
-                                    <button id="conteudo" onClick={()=>{setConteudoDiv("conteudo");}} className="w-1/3 h-[40px] rounded-2xl cursor-pointer border-2 border-gray-200 hover:bg-amber-200 text-[80%] md:text-[90%] px-5 transicao ">Conteúdo</button>
+                        <div className="flex md:px-6 lg w-full justify-center items-center mt-15 ">
+                              <div className="flex w-full md:px-28 lg:px-0 md:gap-4 justify-between ">
+                                    <button id="todos" onClick={()=>{setConteudoDiv("todos");}} className="w-1/3 h-[40px] rounded-2xl cursor-pointer border-2 border-gray-200 hover:bg-amber-200 text-[75%] md:text-[90%] md:px-5 transicao ">Todos</button>
+                                    <button id="branding"  onClick={()=>{setConteudoDiv("branding");}}  className="w-1/3 h-[40px] rounded-2xl cursor-pointer border-2 border-gray-200 hover:bg-amber-200 text-[75%] md:text-[90%] md:px-5 transicao ">Branding</button>
+                                    <button id="design" onClick={()=>{setConteudoDiv("design");}} className="w-1/3 h-[40px] rounded-2xl cursor-pointer border-2 border-gray-200 hover:bg-amber-200 text-[75%] md:text-[90%] md:px-5 transicao ">Design</button>
+                                    <button id="video" onClick={()=>{setConteudoDiv("video");}} className="w-1/3 h-[40px] rounded-2xl cursor-pointer border-2 border-gray-200 hover:bg-amber-200 text-[75%] md:text-[90%]  md:px-5 transicao ">Video</button>
+                                    <button id="conteudo" onClick={()=>{setConteudoDiv("conteudo");}} className="w-1/3 h-[40px] rounded-2xl cursor-pointer border-2 border-gray-200 hover:bg-amber-200 text-[75%] md:text-[90%]  md:px-5 transicao ">Conteúdo</button>
                               </div>
                         </div>
                         

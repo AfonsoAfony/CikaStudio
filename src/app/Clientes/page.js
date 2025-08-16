@@ -2,7 +2,7 @@ function Clientes(){
       
         return(
 
-<div className=" block  mt-32 lg:mt-72 pt-20 text-black"> 
+<div id="Clientes" className=" block  mt-32 lg:mt-72 pt-20 text-black"> 
                   <div className="lg:px-52">
                         <h1 className="text-center text-4xl md:text-6xl font-semibold mb-5">Nossos <span className="cor-logo">Clientes</span></h1>
                         <p className="text-center text-gray-500 text-lg lg:text-xl mx-18 xl:mx-52 ">Temos o privilégio de trabalhar com startups e marcas inovadoras que estão moldando o futuro de seus mercados.</p>
@@ -14,34 +14,34 @@ function Clientes(){
 
                         <div className="gap-8 w-3/3 flex md:flex-nowrap flex-wrap transicao">
 
-                              <div className="md:w-[24%] w-[45%] hover:shadow-amber-300 hover:shadow-2xl hover:scale-110 text-center font-bold py-9 rounded bg-white  ">
-                                    <span className="text-green-400 text-2xl " >TechVerde</span>
+                              <div className="md:w-[24%] w-[40%] hover:shadow-amber-300 hover:shadow-2xl hover:scale-110 text-center font-bold py-9 rounded bg-white  ">
+                                    <span className="text-green-400 text-sm md:text-xl xl:text-2xl " >TechVerde</span>
                               </div>
-                              <div className="md:w-[24%] w-[45%] hover:shadow-amber-300 hover:shadow-2xl hover:scale-110 text-center font-bold py-9 rounded bg-white  ">
-                                    <span className="text-red-400 text-2xl " >EduTech</span>
+                              <div className="md:w-[24%] w-[40%] hover:shadow-amber-300 hover:shadow-2xl hover:scale-110 text-center font-bold py-9 rounded bg-white  ">
+                                    <span className="text-red-400 text-sm md:text-xl xl:text-2xl" >EduTech</span>
                               </div>
-                              <div className="md:w-[24%] w-[45%] hover:shadow-amber-300 hover:shadow-2xl hover:scale-110 text-center font-bold py-9 rounded bg-white  ">
-                                    <span className="text-amber-700 text-2xl " >FoodApp</span>
+                              <div className="md:w-[24%] w-[40%] hover:shadow-amber-300 hover:shadow-2xl hover:scale-110 text-center font-bold py-9 rounded bg-white  ">
+                                    <span className="text-amber-700 text-sm md:text-xl xl:text-2xl " >FoodApp</span>
                               </div>
-                              <div className="md:w-[24%] w-[45%] hover:shadow-amber-300 hover:shadow-2xl hover:scale-110 text-center font-bold py-9 rounded bg-white ">
-                                    <span className="text-amber-400 text-2xl " >FinFlow</span>
+                              <div className="md:w-[24%] w-[40%] hover:shadow-amber-300 hover:shadow-2xl hover:scale-110 text-center font-bold py-9 rounded bg-white ">
+                                    <span className="text-amber-400 text-sm md:text-xl xl:text-2xl" >FinFlow</span>
                               </div>
                         </div>
-                        <div className="gap-8 w-3/3 flex md:flex-nowrap flex-wrap transicao md:pt-10 md:px-19">
+                        <div className="gap-8 w-3/3 flex md:flex-nowrap flex-wrap transicao md:pt-10 xl:px-19">
 
 
 
-                              <div className="md:w-[24%] w-[45%] hover:shadow-amber-300 hover:shadow-2xl hover:scale-110 text-center font-bold py-9 rounded bg-white ">
-                                    <span className="text-amber-800 text-2xl " >HealthPlus</span>
+                              <div className="md:w-[24%] w-[40%] hover:shadow-amber-300 hover:shadow-2xl hover:scale-110 text-center font-bold py-9 rounded bg-white ">
+                                    <span className="text-amber-800 text-sm md:text-xl xl:text-2xl" >HealthPlus</span>
                               </div>
-                              <div className="md:w-[24%] w-[45%] hover:shadow-amber-300 hover:shadow-2xl hover:scale-110 text-center font-bold py-9 rounded bg-white ">
-                                    <span className="text-green-600 text-2xl " >GreenStart</span>
+                              <div className="md:w-[24%] w-[40%] hover:shadow-amber-300 hover:shadow-2xl hover:scale-110 text-center font-bold py-9 rounded bg-white ">
+                                    <span className="text-green-600 text-sm md:text-xl xl:text-2xl" >GreenStart</span>
                               </div>
-                              <div className="md:w-[24%] w-[45%] hover:shadow-amber-400 hover:shadow-2xl hover:scale-110 text-center font-bold py-9 rounded bg-white ">
-                                    <span className="text-yellow-900 text-2xl " >SportTech</span>
+                              <div className="md:w-[24%] w-[40%] hover:shadow-amber-400 hover:shadow-2xl hover:scale-110 text-center font-bold py-9 rounded bg-white ">
+                                    <span className="text-yellow-900 text-sm md:text-xl xl:text-2xl" >SportTech</span>
                               </div>
-                              <div className="md:w-[24%] w-[45%] hover:shadow-amber-400 hover:shadow-2xl hover:scale-110 text-center font-bold py-9 rounded bg-white  ">
-                                    <span className="text-red-600 text-2xl " >CreativeHub</span>
+                              <div className="md:w-[24%] w-[40%] hover:shadow-amber-400 hover:shadow-2xl hover:scale-110 text-center font-bold px-3 py-9 rounded bg-white  ">
+                                    <span className="text-red-600 text-sm md:text-xl xl:text-2xl" >CreativeHub</span>
                               </div>
                         </div>
                   </div>      
@@ -55,9 +55,9 @@ function Clientes(){
             {/**********************************Comentários de Clientes******************************** */}
             <div className="gap-8 w-3/3 flex flex-wrap lg:flex-nowrap justify-between transicao pt-10 px-6 lg:px-19">
   
-                       <div className="h-[320px] w-full lg:w-[48%]">
-                              <div className="hover:shadow-amber-300  hover:shadow-2xl py-3 hover:-mt-5 bg-white  rounded-3xl px-5 transicao">
-                                    
+                       <div className="md:h-[320px] w-full lg:w-[48%] ">
+                              <div className="hover:shadow-amber-300 hover:shadow-2xl h-full py-8 md:py-5 hover:-mt-5 bg-white  rounded-3xl px-5 transicao">
+                                 
                                     <div className=" w-1/8  ">
                                           <img src="./icons/stars.png" className=" right-0 w-[90%]" />
                                     </div>
@@ -67,7 +67,7 @@ function Clientes(){
                                     </div>
 
                                     <div className="w-[50%] flex items-center gap-4">
-                                          <div className=" w-1/6 text-center text-amber-600 bold bg-amber-200 rounded-full py-3 ">
+                                          <div className=" w-1/6 text-center text-amber-600 bold mb:bg-amber-200 rounded-full py-3 ">
                                                <span>MS</span> 
                                           </div>
                                           <div >
@@ -81,8 +81,8 @@ function Clientes(){
                               
                         </div>
                         
-                        <div className="h-[320px] w-full lg:w-[48%]">
-                              <div className="hover:shadow-amber-300 hover:shadow-2xl h-full py-3 hover:-mt-5 bg-white  rounded-3xl px-5 transicao">
+                        <div className="md:h-[320px] w-full lg:w-[48%] ">
+                              <div className="hover:shadow-amber-300 hover:shadow-2xl h-full py-8 md:py-5 hover:-mt-5 bg-white  rounded-3xl px-5 transicao">
                                     
                                     <div className=" w-1/8  ">
                                           <img src="./icons/stars.png" className=" right-0 w-[90%]" />
@@ -93,7 +93,7 @@ function Clientes(){
                                     </div>
 
                                     <div className="w-[50%] flex items-center gap-4">
-                                          <div className=" w-1/6 text-center text-amber-600 bold bg-amber-200 rounded-full py-3 ">
+                                          <div className=" w-1/6 text-center text-amber-600 bold md:bg-amber-200 rounded-full py-3 ">
                                                <span>CM</span> 
                                           </div>
                                           <div >
@@ -112,8 +112,8 @@ function Clientes(){
             {/********************************* */}
              <div className="gap-8 w-3/3 flex flex-wrap lg:flex-nowrap justify-between transicao pt-10 px-6 lg:px-19">
 
-                       <div className="h-[320px] w-full lg:w-[48%]">
-                              <div className="hover:shadow-amber-300 hover:shadow-2xl h-full py-3 hover:-mt-5 bg-white  rounded-3xl px-5 transicao">
+                       <div className="md:h-[320px] w-full lg:w-[48%] ">
+                              <div className="hover:shadow-amber-300 hover:shadow-2xl h-full py-8 md:py-5 hover:-mt-5 bg-white  rounded-3xl px-5 transicao">
                                     
                                     <div className=" w-1/8  ">
                                           <img src="./icons/stars.png" className=" right-0 w-[90%]" />
@@ -124,7 +124,7 @@ function Clientes(){
                                     </div>
 
                                     <div className="w-[50%] flex items-center gap-4">
-                                          <div className=" w-1/6 text-center text-amber-600 bold bg-amber-200 rounded-full py-3 ">
+                                          <div className=" w-1/6 text-center text-amber-600 bold md:bg-amber-200 rounded-full py-3 ">
                                                <span>AB</span> 
                                           </div>
                                           <div >
@@ -138,8 +138,8 @@ function Clientes(){
                               
                         </div>
                         
-                         <div className="h-[320px] w-full lg:w-[48%]">
-                              <div className="hover:shadow-amber-300 hover:shadow-2xl h-full py-3 hover:-mt-5 bg-white  rounded-3xl px-5 transicao">
+                         <div className="md:h-[320px] w-full lg:w-[48%] ">
+                              <div className="hover:shadow-amber-300 hover:shadow-2xl h-full py-8 md:py-5 hover:-mt-5 bg-white  rounded-3xl px-5 transicao">
                                     
                                     <div className=" w-1/8  ">
                                           <img src="./icons/stars.png" className=" right-0 w-[90%]" />
@@ -150,7 +150,7 @@ function Clientes(){
                                     </div>
 
                                     <div className="w-[50%] flex items-center gap-4">
-                                          <div className=" w-1/6 text-center text-amber-600 bold bg-amber-200 rounded-full py-3 ">
+                                          <div className=" w-1/6 text-center text-amber-600 bold md:bg-amber-200 rounded-full py-3">
                                                <span>RS</span> 
                                           </div>
                                           <div >

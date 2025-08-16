@@ -3,12 +3,12 @@ import { ArrowRight, StepForward } from "lucide-react";
 
 function Header(){
         return(
-<div id="topo" className="lg:mt-[72px] mt-[40px]">            
+<div id="topo" className="lg:mt-[72px] mt-[70px]">            
       <div id="header" className="transicao h-[755px] flex text-center justify-center items-center ">
                 <div className="lg:w-[50%] w-full text-center">
-                         <h1 className="lg:text-7xl text-5xl md:px-0 px-9 pb-10 text-black font-semibold">Criamos experiências <span className="cor-logo">extraordinárias</span></h1>
+                         <h1 className="lg:text-7xl text-4xl md:px-0 px-9 pb-10 text-black font-semibold">Criamos experiências <span className="cor-logo">extraordinárias</span></h1>
                         
-                        <p className="pb-10 md:text-[150%] md:px-0 px-10  text-[140%] text-gray-200 text-center w-full">Somos a <span className="text-amber-300">CIKA Studio</span>, uma agência criativa especializada em design gráfico, branding, criação de conteúdo e produção de vídeo para startups e marcas que querem se destacar.</p>
+                        <p className="pb-10 md:text-[150%] md:px-0 px-10  text-[130%] text-gray-200 text-center w-full">Somos a <span className="text-amber-300">CIKA Studio</span>, uma agência criativa especializada em design gráfico, branding, criação de conteúdo e produção de vídeo para startups e marcas que querem se destacar.</p>
                         <div className="flex flex-wrap gap-y-2 mb-9 gap-x-4 items-center justify-center">
                             <a href="#Portfolio"><div className="h-16 border border-transparent block"><button className="h-15 btn-laranja text-[140%] px-6 py-3 items-center  transicao flex gap-2 font-semibold ">Vamos criar juntos<ArrowRight/></button></div></a>
                             <a href="#Portfolio"><button className="btn-branco text-[140%] px-8 py-3 items-center transicao flex gap-2"><StepForward/> Ver nosso trabalho</button></a>
